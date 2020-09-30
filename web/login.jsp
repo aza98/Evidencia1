@@ -21,19 +21,22 @@
     </head>
     <body class="text-center">
         <form class="form-signin">
-            <h1 class="h3 mb-3 font-weight-normal">Libreria -----</h1>
+            <h1 class="h3 mb-3 font-weight-normal">Libreria Vita</h1>
             <img src="img/logo.png" id="logo"width="180" height="180">
             <h6 class="text-muted mb-3 font-weight-normal">Cliente registrados</h6>
-            <label for="inputEmail" class="sr-only">Email</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+            <label for="inputEmail" class="sr-only">Usuario</label>
+            <input type="usuario" id="inputEmail" class="form-control" placeholder="Usuario" required autofocus>
             <label for="inputPassword" class="sr-only">Contraseña</label>
             <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
             <div class="checkbox mb-3">
                 <label>
-                    <input type="checkbox" value="remember-me">Recordarme
+                    <input class="mr-2"type="checkbox" value="remember-me">Recordarme
                 </label>
             </div>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Iniciar Sesión</button>
+            <div class=" mt-3">
+                <a href="registrar-usuario.jsp"><u>Crear usuario</u></a> 
+            </div>
             <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
         </form>
 
