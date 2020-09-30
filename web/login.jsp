@@ -21,8 +21,8 @@
     </head>
     <body class="text-center">
         <form class="form-signin">
-            <img class="mb-4" src="/../img/logo.png" alt="" width="72" height="72">
-            <h1 class="h3 mb-3 font-weight-normal">Iniciar Sesión</h1>
+            <h1 class="h3 mb-3 font-weight-normal">Libreria -----</h1>
+            <img src="img/logo.png" id="logo"width="180" height="180">
             <h6 class="text-muted mb-3 font-weight-normal">Cliente registrados</h6>
             <label for="inputEmail" class="sr-only">Email</label>
             <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
@@ -34,7 +34,7 @@
                 </label>
             </div>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Iniciar Sesión</button>
-            <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
+            <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
         </form>
 
         <!-- Optional JavaScript -->
