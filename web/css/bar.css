@@ -1,0 +1,95 @@
+nav {
+    margin: 30px auto;
+    position: relative;
+    width: 600px;
+    height: 50px;
+    background-color: #596e79;
+    border-radius: 8px;
+    font-size: 0;
+}
+nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+}
+
+a:nth-child(1) {
+    width: 150px;
+}
+a:nth-child(2) {
+    width: 150px;
+}
+a:nth-child(3) {
+    width: 150px;
+}
+a:nth-child(4) {
+    width: 150px;
+}
+nav .start-home, a:nth-child(1):hover~.animation { /*1 elemento del menu*/
+    width: 150px;
+    left: 0;
+    background-color: #1abc9c;
+}
+nav .start-best, a:nth-child(2):hover~.animation {/*2 elemento del menu*/
+    width: 150px;
+    left: 150px;
+    background-color: #e74c3c;
+}
+nav .start-galery, a:nth-child(3):hover~.animation { /*3 elemento del menu*/
+    width: 150px;
+    left: 300px;
+    background-color: #3498db;
+}
+nav .start-teach, a:nth-child(4):hover~.animation { /*4 elemento del menu*/
+    width: 150px;
+    left: 450px;
+    background-color: #9b59b6;
+}
+body { /*Estilo del cuerpo*/
+    font-size: 12px;
+    font-family: sans-serif;
+    background: #654321;
+}
+h1 {
+    text-align: center;
+    margin: 40px 0 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #f0c0f1;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Cherry Swash', cursive;
+}
+#cuerpo{ 
+    margin: 30px 200px 100px 200px;
+    font-family: 'Cherry Swash';
+    color: #ecf0f1;
+    font-size: 18px;
+}
+p {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    color: #ecf0f1;
+    font-family: 'Cherry Swash';
+    font-size: 16px;}
+
+span {
+    color: #2BD6B4;
+    font-size: 30px;
+}

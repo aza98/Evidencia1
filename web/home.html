@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Title page -->
+        <title>Home</title>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bar.css" type="text/css"/>
+        <link rel="stylesheet" href="css/slider.css" type="text/css"/>
+        <link rel="stylesheet" href="css/top.css" type="text/css"/>
+        <!-- Background page -->
+        <style>
+            body {
+                background-color: #dfd3c3;
+            }       
+        </style>
+    </head>
+    <body>
+        <!-- Menu -->
+        <nav>
+            <a href="home.html">Inicio</a>
+            <a href="libros.html">Libros</a>
+            <a href="categorias.html">Categoria</a>
+            <a href="nosotros.html">Nosotros</a>
+            <div class="animation start-home"></div>
+        </nav>
+        
+        <!-- Titulo del mes -->
+        <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+        <p class="logo-1"> Top 5 del mes </p>
+        
+        <!-- Slider o Carrusel -->
+        <div class="container">
+            <div class="carousel">
+                <input type="radio" id="carousel-1" name="carousel[]" checked>
+                <input type="radio" id="carousel-2" name="carousel[]">
+                <input type="radio" id="carousel-3" name="carousel[]">
+                <input type="radio" id="carousel-4" name="carousel[]">
+                <input type="radio" id="carousel-5" name="carousel[]">
+                <ul class="carousel__items">
+                    <li class="carousel__item"><img src="img/Libro1.jpg" id="libro1" width="500" height="540"></li>
+                    <li class="carousel__item"><img src="img/Libro2.jpg" id="libro2" width="500" height="540"></li>
+                    <li class="carousel__item"><img src="img/Libro3.jpg" id="libro3" width="500" height="540"></li>
+                    <li class="carousel__item"><img src="img/Libro4.jpg" id="libro4" width="500" height="540"></li>
+                    <li class="carousel__item"><img src="img/Libro5.jpg" id="libro5" width="500" height="540"></li>
+                </ul>
+                <div class="carousel__prev">
+                    <label for="carousel-1"></label>
+                    <label for="carousel-2"></label>
+                    <label for="carousel-3"></label>
+                    <label for="carousel-4"></label>
+                    <label for="carousel-5"></label>
+                </div>
+                <div class="carousel__next">
+                    <label for="carousel-1"></label>
+                    <label for="carousel-2"></label>
+                    <label for="carousel-3"></label>
+                    <label for="carousel-4"></label>
+                    <label for="carousel-5"></label>
+                </div>
+                <div class="carousel__nav">
+                    <label for="carousel-1"></label>
+                    <label for="carousel-2"></label>
+                    <label for="carousel-3"></label>
+                    <label for="carousel-4"></label>
+                    <label for="carousel-5"></label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
