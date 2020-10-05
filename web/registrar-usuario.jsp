@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="d-flex justify-content-center container-sm p-3 ">
-            <form id="unete_form" method="POST" class="needs-validation" action="agregar_candidato.php" novalidate>
+            <form id="registro_form" method="post" action="registroUsuario" class="needs-validation" novalidate>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputName">Nombre</label>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="form-group col-md-6">
                         <label for="inputLastName1">Apellidos</label>
-                        <input type="text" class="form-control" name="apellido_paterno" placeholder="Apellido" id="apellido_paterno" required>
+                        <input type="text" class="form-control" name="apellido" placeholder="Apellido" id="apellido" required>
                         <div class="invalid-feedback">
                             Campo Obligatorio*
                         </div>
@@ -50,24 +50,15 @@
                     </div>
                 </div>
 
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="exampleInputPassword1">Contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" required>
-                        <div class="invalid-feedback">
-                            Campo Obligatorio*
-                        </div>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="exampleInputPassword1">Confirmar contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" required>
-                        <div class="invalid-feedback">
-                            Campo Obligatorio*
-                        </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Contraseña</label>
+                    <input type="password" class="form-control" id="password" placeholder="Contraseña" required>
+                    <div class="invalid-feedback">
+                        Campo Obligatorio*
                     </div>
                 </div>
                 <div class="text-center  p-5 ">
-                    <button type="submit" id="submit_form" class="btn btn-primary btn-block font-weight-bold ">Enviar</button>
+                    <button type="submit" id="submit_form" class="btn btn-outline-info btn-block font-weight-bold ">Enviar</button>
                 </div>
                 <div class="p-4">
                 </div>
@@ -94,7 +85,7 @@
                 }, false);
             })();
         </script>
-        
+
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

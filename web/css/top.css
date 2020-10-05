@@ -1,6 +1,6 @@
 :root {
-    --shadow-color: #FF9E9E;
-    --shadow-color-light: #e8505b;
+    -shadow-color: #FF9E9E;
+    -shadow-color-light: #e8505b;
 }
 
 * {
